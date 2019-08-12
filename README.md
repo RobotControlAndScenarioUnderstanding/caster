@@ -25,5 +25,19 @@ Desktop ROS packages for the IQR Caster, which may pull in graphical dependencie
  - [caster_teleop](caster_teleop) : Joystick teleop configuration and launch file
  - [caster_description](caster_description) : Robot description (URDF)
 
+## dependency install
+```
+sudo apt-get install ros-kinetic-serial
+```
+```
+sudo apt-get install ros-kinetic-move-base
+```
+```
+sudo apt-get install ros-kinetic-controller-manager
+```
+```
+sudo apt-get install ros-kinetic-can-msgs
+```
+
 ------
 © 2019 Beijing I-Quotient Robot Technology Co., Ltd. All Rights Reserved
